@@ -1,42 +1,43 @@
-# SWYNEX - Exploratory Data Analysis
+# Task 3: Titanic Predictive Model
 
 ## Project Overview
-This project focuses on Exploratory Data Analysis (EDA) of the Titanic dataset as part of the SWYNEX internship Task 2.
+This project focuses on building and evaluating a Machine Learning model using the Titanic dataset.
 
-## Dataset Information
-- Dataset: Titanic Dataset
-- Total Rows: 891
-- Total Columns: 12
-- Data Source: Titanic Data Preparation project
+The main objective is to predict whether a passenger survived or not.
 
-## Tools and Technologies
+## Dataset
+Titanic Dataset (891 rows and 12 columns).
+
+## Technologies Used
 - Python
 - Google Colab
 - Pandas
 - NumPy
-- Matplotlib
-- Seaborn
+- Scikit-learn
+- Machine Learning
 
-## Analysis Performed
-1. Statistical Analysis
-2. Missing Values Analysis
-3. Survival Analysis
-4. Gender-wise Survival Analysis
-5. Age Distribution
-6. Passenger Class Analysis
-7. Fare Distribution
-8. Correlation Heatmap
+## Model Used
+Logistic Regression
 
-## Key Insights
-- Approximately 38.38% of passengers survived.
-- Female passengers had a higher survival rate (74.20%) than male passengers (18.89%).
-- Most passengers were between 20 and 30 years old.
-- First-class passengers had better survival outcomes than third-class passengers.
-- Most passengers paid lower ticket fares.
-- Passenger class showed a negative correlation with survival.
+## Steps Performed
+1. Loaded the Titanic dataset.
+2. Selected features and target variable.
+3. Converted categorical data into numerical data.
+4. Split the dataset into training and testing data.
+5. Trained the Logistic Regression model.
+6. Made predictions.
+7. Evaluated model performance.
+8. Generated a classification report and confusion matrix.
+
+## Model Accuracy
+80.44%
+
+## Limitations
+1. The model may not give 100% accurate predictions.
+2. The model depends on dataset quality.
+3. Missing values can affect prediction results.
+4. Some important passenger information may be missing.
+5. Logistic Regression may not capture complex relationships.
 
 ## Conclusion
-EDA helped identify important patterns and relationships in the Titanic dataset. These findings provide useful information about the factors associated with passenger survival.
-
-## Internship
-SWYNEX Technologies - Task 2: Exploratory Data Analysis
+The Logistic Regression model achieved approximately 80.44% accuracy on the test dataset. This project helped me understand the basic Machine Learning workflow, model training, prediction, and evaluation.
